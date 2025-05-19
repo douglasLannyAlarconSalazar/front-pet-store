@@ -6,7 +6,7 @@ import React from 'react'
 
 const Index = () => {
 
-  let products: Product[] = mockProducts;
+  const products: Product[] = mockProducts;
 
   return (
     <div className="flex flex-col  items-center gap-10">

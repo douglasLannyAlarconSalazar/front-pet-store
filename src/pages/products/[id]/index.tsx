@@ -65,7 +65,7 @@ const Index = () => {
 
             e.preventDefault();
             alert('Produto actualizado en memoria');
-            let prod = mockProducts.find((p) => p.id === Number(id));
+            const prod = mockProducts.find((p) => p.id === Number(id));
             if(prod){
                 console.log('este es el produto', product);
 
