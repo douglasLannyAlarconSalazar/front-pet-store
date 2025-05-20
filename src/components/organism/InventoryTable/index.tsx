@@ -47,16 +47,7 @@ const Index = ({ products }: { products: Product[] }) => {
                     />
                   </Link>
 
-                  <button>
-                    <Image
-                      aria-hidden
-                      src="/001-bin.png"
-                      alt="Globe icon"
-                      width={24}
-                      height={24}
-                    />
-                    
-                  </button>
+                  
                 </div>
               </td>
 
