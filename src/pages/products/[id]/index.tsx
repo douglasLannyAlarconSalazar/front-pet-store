@@ -52,7 +52,7 @@ const Index = () => {
 
          <div className="flex flex-col">
           <label >Precio ($)</label>
-          <input type="text" id="price" name="price"
+          <input type="text" id="price" name="price" disabled={id !== 'created'}
             value={product?.price} onChange={(e) => {
               setProduct({ ...product, price: +e.target.value })
             }} />
